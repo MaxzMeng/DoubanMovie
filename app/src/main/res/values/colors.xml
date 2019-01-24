@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="windowsBackground">#f7f7f7</color>
+    <color name="windowsBackgroundLight">#f8f8f8</color>
+
+    <color name="green">#4ce275</color>
+    <color name="orange">#f98d2c</color>
+    <color name="blue">#0000ff</color>
+    <color name="gray">#F5F5F5</color>
+    <color name="white">#ffffff</color>
+
+    <color name="top_1">#FF4C5F</color>
+    <color name="top_2">#F98E58</color>
+    <color name="top_3">#FFCD87</color>
+    <color name="grayDeep">#9F9F9F</color>
+</resources>

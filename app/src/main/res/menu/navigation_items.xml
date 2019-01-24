@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_coming"
+        android:icon="@drawable/ic_coming_soon"
+        android:title="即将上映"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_theater"
+        android:icon="@drawable/ic_theater"
+        android:title="热映"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_find"
+        android:icon="@drawable/ic_eye"
+        android:title="找片"
+        app:showAsAction="ifRoom" />
+</menu>
