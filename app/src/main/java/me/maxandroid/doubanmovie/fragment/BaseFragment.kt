@@ -9,13 +9,19 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 
-abstract class BaseFragment<fragmentBinding : ViewDataBinding> : Fragment() {
-    protected lateinit var fragmentBinding: ViewDataBinding
+abstract class BaseFragment<FragmentBinding : ViewDataBinding> : Fragment() {
+    protected lateinit var fragmentBinding: FragmentBinding
     @LayoutRes
     abstract fun getLayoutId(): Int
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        fragmentBinding = DataBindingUtil.inflate<fragmentBinding>(inflater, getLayoutId(), container, false)
+        fragmentBinding = DataBindingUtil.inflate(inflater, getLayoutId(), container, false)
+        bindView(fragmentBinding)
         return fragmentBinding.root
+    }
+
+
+    protected fun bindView(fragmentBinding: FragmentBinding) {
+
     }
 }
